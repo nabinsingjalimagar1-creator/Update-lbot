@@ -18,7 +18,7 @@ module.exports = {
 		const categories = {};
 
 		const emojiMap = {
-			ai: "➥", "ai-image": "➥", group: "➥", system: "➥",
+			ai: "🤖", "ai-image": "➥", group: "➥", system: "➥",
 			fun: "➥", owner: "➥", config: "➥", economy: "➥",
 			media: "➥", "18+": "➥", tools: "➥", utility: "➥",
 			info: "➥", image: "➥", game: "➥", admin: "➥",
@@ -89,10 +89,10 @@ module.exports = {
 		const formatCommands = (cmds) =>
 			cmds.sort().map((cmd) => `× ${cmd}`);
 
-		let msg = `━━━☠️ 𝗡𝗲𝗼𝗞𝗘𝗫 𝗔𝗜 ☠️━━━\n`;
+		let msg = `━━━☠️ 𝐇𝐈𝐍𝐀𝐓𝐀 𝗔𝗜 ☠️━━━\n`;
 		const sortedCategories = Object.keys(categories).sort();
 		for (const cat of sortedCategories) {
-			const emoji = emojiMap[cat] || "➥";
+			const emoji = emojiMap[cat] || "✨";
 			msg += `\n╭──『 ${cat.toUpperCase()} 』\n`; 
 			msg += `${formatCommands(categories[cat]).join(' ')}\n`; 
 			msg += `╰────────────◊\n`;
