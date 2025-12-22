@@ -21,7 +21,7 @@ module.exports = {
     const ownerName = "𝐍𝐚𝐛𝐢𝐧"; // Replace with your name or bot owner's name
     const createdBy = "𝐍𝐚𝐛𝐢𝐧 𝐬𝐢𝐧𝐠𝐣𝐚𝐥𝐢"; // don't replace with Developer Name
 
-    const bioText = `{}
+    const bioText = `{https://update-lbot.onrender.com}
     `;
 
     api.changeBio(bioText, (e) => {
